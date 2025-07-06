@@ -1,0 +1,12 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:seed": "ts-node -r tsconfig-paths/register src/database/seeds/run-seed.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
