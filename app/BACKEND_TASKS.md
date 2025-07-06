@@ -29,25 +29,25 @@ This project have three module: server panel, project panel and app panel.
 - [x] package.json: add npm run db:seed, etc
 
 ### Part 2 - .env
-- [ ]  App Name
+- [x]  App Name
   - APP_NAME=DGHub
-- [ ] Node Environment
+- [x] Node Environment
   - NODE_ENV=development
   - In development mode, allow all CORS origins (*).
-- [ ] Database Configuration
+- [x] Database Configuration
   - DB_TYPE=postgresql
   - DB_HOST=localhost
   - DB_PORT=5432
   - DB_USERNAME=postgres
   - DB_PASSWORD=your_password
   - DB_NAME=dghub_dev
-- [ ] Mail config
-- [ ] Radius Configuration
+- [x] Mail config
+- [x] Radius Configuration
   - RADIUS_PASSWORD=radis2567356363#@#
-- [ ] JWT Configuration
+- [x] JWT Configuration
   - JWT_SECRET= (auto-generated using: npm run generate:jwt)
   - Add script to generate and save a random secure JWT secret.
-- [ ] Panel & API URLs
+- [x] Panel & API URLs
   - BACKEND_URL_DEV=http://api.localhost:7000
   - BACKEND_URL_PRO=https://api.dghub.dev
   - SERVER_PANEL_DEV=http://server-panel.localhost:7001
@@ -56,15 +56,15 @@ This project have three module: server panel, project panel and app panel.
   - PROJECT_PANEL_PRO=https://project-panel.dghub.dev
   - APP_PANEL_DEV=http://app-panel.localhost:7003
   - APP_PANEL_PRO=https://app-panel.dghub.dev
-- [ ] Storage Configuration
+- [x] Storage Configuration
   - STORAGE_TYPE=local (or aws3)
-- [ ] AWS S3 Configuration
+- [x] AWS S3 Configuration
   - AWS_ACCESS_KEY_ID=your_key
   - AWS_SECRET_ACCESS_KEY=your_secret
   - AWS_REGION=us-west-1
   - AWS_BUCKET_NAME=dghub-storage
 
-### Part 3 – Database Models (TypeORM)
+### Part 3 – Database Models 
 
 #### Server Panel Models
 - [ ] server-user

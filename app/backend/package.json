@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "db:seed": "ts-node -r tsconfig-paths/register src/database/seeds/run-seed.ts"
+  scripts": {
+    "db:seed": "ts-node -r tsconfig-paths/register src/database/seeds/run-seed.ts",
+    "generate:jwt": "node -e \"console.log(require('crypto').randomBytes(64).toString('hex'))\""
   },
   "keywords": [],
   "author": "",
